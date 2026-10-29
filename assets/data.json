@@ -1,0 +1,68 @@
+{
+  "user": {
+    "name": "Aji Pamungkas",
+    "balance": 1250000,
+    "monthly_expense": 785000
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Patungan Nasi Goreng & Es Teh",
+      "category": "Makanan",
+      "amount": 45000,
+      "date": "20 Oktober 2026",
+      "status": "Belum Lunas",
+      "payer": "Tbagus Muhammad",
+      "note": "Makan malam bertiga di Warung Pak Jo setelah ngerjain tugas Odoo.",
+      "participants": [
+        {"name": "Aji Pamungkas", "share": 15000, "is_paid": true},
+        {"name": "Tbagus Muhammad", "share": 15000, "is_paid": true},
+        {"name": "Muhammad Irfan", "share": 15000, "is_paid": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bayar Wifi Kos Bulan Oktober",
+      "category": "Tagihan",
+      "amount": 150000,
+      "date": "15 Oktober 2026",
+      "status": "Lunas",
+      "payer": "Aji Pamungkas",
+      "note": "Tagihan wifi IndiHome 50Mbps dibagi bertiga.",
+      "participants": [
+        {"name": "Aji Pamungkas", "share": 50000, "is_paid": true},
+        {"name": "Tbagus Muhammad", "share": 50000, "is_paid": true},
+        {"name": "Muhammad Irfan", "share": 50000, "is_paid": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Beli Galon Aqua & Gas Elpiji",
+      "category": "Kebutuhan Kos",
+      "amount": 38000,
+      "date": "18 Oktober 2026",
+      "status": "Belum Lunas",
+      "payer": "Muhammad Irfan",
+      "note": "Beli galon 2 biji dan gas 3kg untuk dapur bersama.",
+      "participants": [
+        {"name": "Aji Pamungkas", "share": 19000, "is_paid": false},
+        {"name": "Muhammad Irfan", "share": 19000, "is_paid": true}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Patungan Sewa Lapangan Futsal",
+      "category": "Olahraga",
+      "amount": 120000,
+      "date": "12 Oktober 2026",
+      "status": "Lunas",
+      "payer": "Tbagus Muhammad",
+      "note": "Futsal jam 7 malam di Lapangan Orkid.",
+      "participants": [
+        {"name": "Aji Pamungkas", "share": 40000, "is_paid": true},
+        {"name": "Tbagus Muhammad", "share": 40000, "is_paid": true},
+        {"name": "Muhammad Irfan", "share": 40000, "is_paid": true}
+      ]
+    }
+  ]
+}
